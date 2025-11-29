@@ -14,7 +14,6 @@ private:
     int birthYear;
 
 public:
-    // Конструктор
     Person(string s, string n, string f, string a, string g, string e, int by)
         : surname(s), name(n), fathername(f), address(a),
           gender(g), education(e), birthYear(by) {}
